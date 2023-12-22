@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: calc(100% - 120px);
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.active{
+    font-weight: 800;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 6666px;
+    background-color: #eee;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    box-shadow: 0px 1.64744px 8.2372px 0px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+header .logo img{
+    width: 30px;
+
+}
+
+header .logo a {
+    color: #545be8;
+}
+
+header nav ul{
+    display: flex;
+    gap: 16px;
+}
+
+header nav ul li a {
+    color: #101928;
+}
+
+header .auth {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+header .auth a{
+    padding: 5.354px 20.181px;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    align-items: center;
+    
+}
+
+header .auth .login{
+    color: #545BE8;
+    border: 2px solid #545BE8;
+}
+
+header .auth .register{
+    background-color: #545BE8;
+    color: #fff;
+    border: 2px solid #545BE8;
+}
+
+.courses{
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.courses .row{
+    gap: 30px;
+    align-items: stretch;
+}
+
+.courses img{
+    width: 100%;
+    aspect-ratio: 135.09/99.079;
+    object-fit: cover;
+}
+.courses .course-items{
+    display: flex;
+    width: calc((100% - 30px) / 2);
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.course{
+    width: calc((100% - 30px) / 2);
+
+}
+
+.course-card{
+    position: relative;
+}
+.course-items{
+    display: flex;
+    position: relative;
+}
+
+.course-info{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.course-info{
+    color: white;
+}
+
+.course-info span:first-of-type{
+    padding: 10px;
+    background-color: #545BE8;
+
+}
+
+.course-info span:last-of-type{
+    align-self: flex-end;
+
+}
+
+.course-details{
+    padding: 10px;
+}
+
+.course-details .row:last-of-type{
+    justify-content: flex-start;
+}
+
+.course-description{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    width: calc((100% - 30px) / 2);
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.course-description p:nth-child(1){
+    color: #545BE8;
+    font-size: 25px;
+}
+
+.course-description h2{
+    font-size: 50px;
+}
+
+.course-description p:last-of-type{
+    color: #969696;
+}
+
+.course-description a{
+    background-color: #545BE8;
+    width: fit-content;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Inter;
+}
+
+main{
+    height: 100vh;
+}
+footer {
+    padding: 50px;
+    background-color: #393E46;
+    color: #fff;
+}
+
+.footer .row{
+    gap: 40px;
+}
+.footer-left-side,.footer-right-side {
+    width: calc((100% - 40px) / 2) ;
+    
+}
+.footer-left-side{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+}
+
+footer .logo{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+footer a{
+    color: #fff;
+    font-size: 14px;
+}
+
+footer img{
+    width: 35px;
+}
+
+footer .icons{
+    display: flex;
+    gap: 15px;
+}
+
+footer .icons svg{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    padding: 10px;
+    box-sizing: content-box;
+}
+
+
+footer .footer-right-side{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: calc((100% - 90px) / 4);
+}
+
+.footer-item nav{
+    display: flex;
+    flex-direction: column;
+}
